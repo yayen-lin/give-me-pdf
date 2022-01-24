@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+## Give Me PDF
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Motivation
 
-## Available Scripts
+I think there are times when we need to read or study on some text file (e.g. .pdf, .ppt). There are also times when we want to quickly memorize some technical terms to understand what we have just read (say, you're preparing for a test). To me, typing while reading helps me do better at quickly grabbing some quick memorization.
 
-In the project directory, you can run:
+### What is Give-Me-PDF
 
-### `npm start`
+Give-Me-PDF is a typing speed app where it allows users to:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- upload/paste a text file or texts to practice and improve words-per-minute (wpm) and accuracy while reading through the file a user uploads
+- see the progress over time with our self-developed plot
+- randomly generate texts if a user does not upload a text file
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Scalable Parts
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- users should be able to practice writing codes on this web app too
+  - for example, generates code like leetcode problems for users to practice while typing
+- collect words or a certain sequence of letters that are most frequently typed wrong
+  - these data could be collected for other purposes
+  - to train a word processing software
+- files uploaded should be discarded or securely kept.
