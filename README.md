@@ -9,7 +9,7 @@ I think there are times when we need to read or study on some text file (e.g. .p
 Give-Me-PDF is a typing speed app where it allows users to:
 
 - upload/paste a text file or texts to practice and improve words-per-minute (wpm) and accuracy while reading through the file a user uploads
-- see the progress over time with our self-developed plot
+- see the progress over time with our self-designed charts.
 - randomly generate texts if a user does not upload a text file
 
 ### Scalable Parts
